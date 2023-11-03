@@ -16,7 +16,7 @@ main()
 	if (valor<5000)
 		printf("\n\nValor do bônus R$ %.f\n", valor*0.1);
 	else
-		printf("\n\Valor do bonus R$ %.2f\n", valor*0.15);
+		printf("\n\nValor do bônus R$ %.2f\n", valor*0.15);
 	printf("\n\nTecle ENTER para continuar...\n\n");
 	getche();
 	cont++;
