@@ -1,8 +1,12 @@
-#include <conio.h>
 #include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+//#include <locale.h>
 /*cálculo do peso ideal a partir da altura e orientação sexual */
 main()
-{	float altura, pesoideal;
+{	
+  	//setlocale(LC_ALL, "Portuguese");
+	float altura, pesoideal;
 	int sexo;
 	printf("Cálculo do Peso Ideal\n\n");
 	printf("Qual a sua altura em metros(m)? ");
